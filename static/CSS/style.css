@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(121, 111, 213, 0.8),
+      rgba(180, 40, 63, 0.8)
+    );
+  }
+  .navbar-brand {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    height: 100vh;
+    width: 100%;
+  }
+  .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* .card-body {
+  } */
+  .card-title {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .input {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: large;
+    border: 0.5rem solid #eee;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 0.5rem;
+  }
+  .select-option {
+    border: 1rem solid black;
+  }
+  .input-select-option {
+    width: 20rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: large;
+    border: 1rem solid #eee;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 0.5rem;
+  }
+  /* .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    font-size: large;
+    border: 0.5rem solid #eee;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 0.5rem;
+    outline: none;
+    background: transparent;
+    background-color: #fff;
+  } */
+  button {
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    padding: 2rem 3rem;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  button::before,
+  button::after {
+    background: #fff;
+    content: "";
+    position: absolute;
+    z-index: -1;
+  }
+  
+  button:hover {
+    color: #2ecc71;
+  }
+  
+  .btn-5 {
+    overflow: hidden;
+  }
+  
+  .btn-5::after {
+    /*background-color: #f00;*/
+    height: 100%;
+    left: -55%;
+  
+    top: 0;
+    transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+  }
+  
+  .btn-5:hover:after {
+    height: 100%;
+    width: 155%;
+  }
+  .prediction_text {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .atanu_kundu {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    background-color: #71e58e;
+    /* margin-bottom: 2rem; */
+    /* margin-top: 2rem; */
+    text-align: center;
+  }
