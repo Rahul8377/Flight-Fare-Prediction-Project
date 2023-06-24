@@ -40,7 +40,7 @@ jobs:
      id: build-image
      env:
       ECR_REGISTRY: ${{steps.login-ecr.output.registry}} 
-      ECR_REPOSITORY: ${{secret.ECR_REPOSITORY_NAME}}    
+      ECR_REPOSITORY: ${{secrets.ECR_REPOSITORY_NAME}}    
       IMAGE_TAG: latest
      run:
        # Build a docker container and 
