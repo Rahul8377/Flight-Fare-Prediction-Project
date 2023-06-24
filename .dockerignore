@@ -1,0 +1,8 @@
+artifact
+logs
+Notebook
+.env
+*.egg-info
+data_dump.py
+main.py
+README.md
