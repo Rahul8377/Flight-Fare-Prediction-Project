@@ -68,7 +68,7 @@ jobs:
       sudo apt-get update
       sudo apt-get install -y jq unzip
   - name: Login to Amazon ECR
-    id: login -ecr
+    id: login-ecr
     uses: aws-actions/amazon-ecr-login@v1
 
   - name: Pull docker image
