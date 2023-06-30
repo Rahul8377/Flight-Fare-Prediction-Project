@@ -51,8 +51,8 @@ jobs:
        echo "::set-output name=image::$ECR_REGISTRY/$ECR REPOSITORY:IMAGE_TAG"
 
  Continuous-Deployment:
-  needs: build-and-push-ecr-image
-  runs-on: self-hosted
+  needs:build-and-push-ecr-image
+  runs-on:self-hosted
   steps:
   - name: Checkout
     uses: actions/checkout@v3
