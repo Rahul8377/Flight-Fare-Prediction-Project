@@ -23,4 +23,5 @@ flight/entity/__init__.py
 flight/entity/artifact_entity.py
 flight/entity/config_entity.py
 flight/pipeline/__init__.py
+flight/pipeline/batch_prediction.py
 flight/pipeline/training_pipeline.py
